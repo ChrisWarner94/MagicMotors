@@ -1,0 +1,10 @@
+<h1>navbar placeholder content</h1>
+
+<% if user_signed_in? %>
+
+<h2>signed in</h2>
+
+<% else %>
+<h2> not signed in</h2>
+<%= link_to "Login", new_user_session_path %>
+<% end %>

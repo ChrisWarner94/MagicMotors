@@ -30,6 +30,9 @@ gem "jbuilder"
 # Devise gem for authentication and session management [https://github.com/heartcombo/devise]
 gem "devise"
 
+# Sassc gem
+gem "sassc-rails"
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
